@@ -4,7 +4,7 @@ const weatherIcon = document.getElementById('weather-icon');
 const hourlyForecastDiv = document.getElementById('hourly-forecast');
 
 function getWeather() {
-    const apiKey = 'dd8d401cfe54b51e3bf896ce694f4508';
+    const apiKey = 'My api key';
     const city = document.getElementById('city').value;
 
     if (!city) {
